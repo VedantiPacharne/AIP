@@ -1,0 +1,8 @@
+@isTest
+private class testCalculator {
+    @isTest static void testOperations() {
+        Integer result = Calculator.add(2, 3);
+        System.debug('Addition result: ' + result);
+        System.assertEquals(5, result);
+    }
+}
